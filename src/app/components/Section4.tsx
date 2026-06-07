@@ -180,7 +180,7 @@ export function Section4({ onNavigate }: Props) {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          style={{ marginBottom: 72 }}
+          style={{ marginBottom: 48 }}
         >
           <h2
             style={{
@@ -240,6 +240,56 @@ export function Section4({ onNavigate }: Props) {
               </p>
             </div>
           </div>
+        </motion.section>
+
+        {/* Interactive Call-to-action */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          style={{
+            marginBottom: 72,
+            background: "linear-gradient(135deg, #FDF6EE 0%, #EFEBE4 100%)",
+            borderRadius: 16,
+            padding: "36px 40px",
+            border: "1px solid rgba(74, 56, 120, 0.12)",
+            boxShadow: "0 10px 30px rgba(74, 56, 120, 0.04)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            textAlign: "center"
+          }}
+        >
+          <div style={{ fontSize: "2.5rem", marginBottom: 16 }}>🎮</div>
+          <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.4rem", fontWeight: 700, color: "#1A1528", marginBottom: 12 }}>
+            Trải Nghiệm Hành Trình Của M & Câu Hỏi Ôn Tập
+          </h3>
+          <p style={{ fontSize: "0.95rem", color: "#5A5A6A", lineHeight: 1.65, maxWidth: 640, marginBottom: 24 }}>
+            Để hiểu rõ hơn về các xung đột tâm lý, áp lực tương tác mà M đang trải qua, cũng như tham gia thử thách giải quyết các câu hỏi trắc nghiệm ôn tập tương tác sinh động, hãy truy cập nền tảng độc quyền của chúng tôi.
+          </p>
+          <motion.a
+            href="https://philogame.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.03, boxShadow: "0 8px 24px rgba(74, 56, 120, 0.2)" }}
+            whileTap={{ scale: 0.98 }}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 10,
+              backgroundColor: ACCENT,
+              color: "#FFFFFF",
+              padding: "14px 28px",
+              borderRadius: 30,
+              fontSize: "0.95rem",
+              fontWeight: 600,
+              textDecoration: "none",
+              transition: "background-color 0.2s",
+            }}
+          >
+            Bắt đầu trải nghiệm ngay
+            <span style={{ fontSize: "1.1rem" }}>→</span>
+          </motion.a>
         </motion.section>
 
         {/* 4.3 Analysis using Marx theory */}
