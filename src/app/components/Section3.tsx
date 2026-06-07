@@ -110,7 +110,7 @@ export function Section3({ onNavigate }: Props) {
               }}
             >
               Tha Hóa Con Người &
-              <span style={{ color: "#C4A07A" }}> Con Đường Giải Phóng</span>
+              <span style={{ color: "#C4A07A" }}> Vấn Đề Giải Phóng Con Người</span>
             </h1>
             <p style={{ fontSize: "1.05rem", color: "#A0A8B0", lineHeight: 1.75, maxWidth: 560 }}>
               Khi sản phẩm, quan hệ hoặc hình ảnh do con người tạo ra quay lại chi phối con người — và con đường giải phóng toàn diện theo Mác – Lênin.
@@ -331,7 +331,7 @@ export function Section3({ onNavigate }: Props) {
             }}
           >
             <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.15rem", fontStyle: "italic", color: "#F0EBE3", lineHeight: 1.75, maxWidth: 680, margin: "0 auto" }}>
-              "Tha hóa không chỉ nằm trong nhà máy hay lao động sản xuất. Trong đời sống hiện đại, tha hóa còn có thể xuất hiện trong tiêu dùng, truyền thông, mạng xã hội và cách con người biến chính hình ảnh của mình thành một 'sản phẩm' để được công nhận."
+              "Sự phát triển tự do của mỗi người là điều kiện cho sự phát triển tự do của tất cả mọi người."
             </p>
           </motion.div>
         </motion.section>
